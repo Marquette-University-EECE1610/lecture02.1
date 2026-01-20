@@ -22,14 +22,14 @@ float_subtraction = a - b
 float_multiplication = a * b
 float_division = a / b
 float_modulus = a % b
-float_exponentiation = a ** b
+float_exponentiation = a**b
 print("a = " + str(a) + ", b = " + str(b))
-print("double a + b = " + str(float_addition))
-print("double a - b = " + str(float_subtraction))
-print("double a * b = " + str(float_multiplication))
-print("double a / b = " + str(float_division))
-print("double a % b = " + str(float_modulus))
-print("double a ** b = " + str(float_exponentiation))
+print(f"double a + b = {float_addition}")
+print(f"double a - b = {float_subtraction}")
+print(f"double a * b = {float_multiplication}")
+print(f"double a / b = {float_division}")
+print(f"double a % b = {float_modulus}")
+print(f"double a ** b = {float_exponentiation}")
 print()
 
 # Mixed arithmetic
